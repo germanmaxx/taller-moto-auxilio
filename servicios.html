@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Servicios de Mecánica para Motos | Villa Adelina</title>
-    <meta name="description" content="Servicios de mecánica para motos en Villa Adelina y Zona Norte. Service, reparación, mantenimiento, frenos, transmisión, electricidad y diagnóstico.">
+    <title>Servicios de Motos Villa Adelina | Taller Mecánico</title>
+
+    <meta name="description" content="Servicios para motos en Villa Adelina y Zona Norte. Service completo, mecánica, carburación, electricidad, suspensión, transmisión, lubricentro y reparación de motos.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://taller-de-motos.com.ar/servicios.html">
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
 
         body {
             margin: 0;
@@ -21,29 +24,34 @@
         }
 
         header {
-            background: #111;
+            background: #222;
             color: white;
             text-align: center;
-            padding: 30px 20px;
+            padding: 35px 20px;
         }
 
         header h1 {
-            margin: 0 0 10px;
-            font-size: 2rem;
+            margin: 0;
+            font-size: 2.3rem;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            margin: 10px 0;
         }
 
         nav {
-            background: #222;
+            background: #111;
             text-align: center;
-            padding: 12px;
+            padding: 12px 10px;
         }
 
         nav a {
             color: white;
             text-decoration: none;
+            margin: 5px 10px;
             font-weight: bold;
             display: inline-block;
-            margin: 5px 10px;
         }
 
         main {
@@ -54,17 +62,13 @@
 
         section {
             background: white;
-            padding: 25px;
             margin-bottom: 20px;
+            padding: 25px;
             border-radius: 10px;
         }
 
         h2 {
             margin-top: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
         }
 
         .botones {
@@ -90,6 +94,18 @@
             color: white;
         }
 
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
         footer {
             background: #111;
             color: white;
@@ -98,9 +114,9 @@
         }
 
         @media (max-width: 600px) {
-            nav a {
-                display: block;
-            }
+            header h1 { font-size: 1.8rem; }
+            nav a { display: block; margin: 8px; }
+            .galeria { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -108,18 +124,28 @@
 <body>
 
 <header>
-    <h1>Servicios de Moto Service Villa Adelina</h1>
-    <p>Mecánica · Mantenimiento · Reparación de motos</p>
+
+    <h1>Servicios de Motos en Villa Adelina</h1>
+
+    <p>
+        Taller Mecánico · Service · Lubricentro · Reparación
+    </p>
 
     <div class="botones">
-        <a href="https://wa.me/5491136409967" class="btn whatsapp">
+
+        <a href="https://wa.me/5491136409967"
+           class="btn whatsapp"
+           target="_blank"
+           rel="noopener">
             📲 WhatsApp
         </a>
 
         <a href="tel:+5491136409967" class="btn llamar">
             📞 Llamar
         </a>
+
     </div>
+
 </header>
 
 <nav>
@@ -132,69 +158,135 @@
 
 <main>
 
-    <section>
-        <h2>Servicios para motos</h2>
+<section>
 
-        <p>
-            Realizamos mantenimiento y reparación de motocicletas,
-            con atención para motos de distintas marcas y cilindradas.
-        </p>
+    <h2>Service y mecánica integral de motos</h2>
 
-        <ul>
-            <li>Service completo de motos</li>
-            <li>Cambio de aceite y filtros</li>
-            <li>Regulación y mantenimiento general</li>
-            <li>Revisión de frenos</li>
-            <li>Revisión y reparación de transmisión</li>
-            <li>Embrague</li>
-            <li>Suspensión</li>
-            <li>Electricidad y sistema de encendido</li>
-            <li>Diagnóstico de fallas</li>
-            <li>Reparación de motores</li>
-            <li>Mantenimiento preventivo</li>
-        </ul>
-    </section>
+    <p>
+        Realizamos mantenimiento y reparación de motocicletas en
+        Villa Adelina y Zona Norte de Buenos Aires.
+    </p>
 
-    <section>
-        <h2>Mecánica integral</h2>
+    <p>
+        Nuestro servicio incluye mantenimiento preventivo,
+        diagnóstico de fallas y reparación de los principales
+        sistemas de la motocicleta.
+    </p>
 
-        <p>
-            Revisamos y reparamos los principales sistemas de la motocicleta,
-            buscando detectar problemas antes de que se conviertan en
-            reparaciones mayores.
-        </p>
+</section>
 
-        <p>
-            También realizamos controles generales para dejar la moto
-            preparada para el uso diario o para viajes.
-        </p>
-    </section>
+<section>
 
-    <section>
-        <h2>Atención en Villa Adelina y Zona Norte</h2>
+    <h2>Servicios principales</h2>
 
-        <p>
-            Atendemos clientes de Villa Adelina y distintas localidades
-            de Zona Norte de Buenos Aires.
-        </p>
+    <ul>
+        <li>Service completo de motos</li>
+        <li>Mecánica integral</li>
+        <li>Carburación y puesta a punto</li>
+        <li>Reparación de motores</li>
+        <li>Electricidad y encendido</li>
+        <li>Frenos</li>
+        <li>Suspensión</li>
+        <li>Transmisión y embrague</li>
+        <li>Centrado de llantas</li>
+        <li>Lubricentro</li>
+        <li>Diagnóstico de fallas</li>
+        <li>Mantenimiento preventivo</li>
+    </ul>
 
-        <p>
-            Para consultar disponibilidad, presupuesto o coordinar una
-            reparación, comunicate directamente por WhatsApp.
-        </p>
+</section>
 
-        <div class="botones">
-            <a href="https://wa.me/5491136409967" class="btn whatsapp">
-                📲 Consultar por WhatsApp
-            </a>
-        </div>
-    </section>
+<section>
+
+    <h2>Reparación y mantenimiento de motos</h2>
+
+    <p>
+        Realizamos trabajos de mantenimiento y reparación para
+        mantener la motocicleta en buenas condiciones de funcionamiento.
+    </p>
+
+    <p>
+        También realizamos trabajos de rectificación de motores y
+        tapas de cilindro.
+    </p>
+
+    <p>
+        <a href="rectificacion.html">
+            Ver servicio de rectificación
+        </a>
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Auxilio y traslado de motos</h2>
+
+    <p>
+        Si tu moto no arranca o necesita ser trasladada,
+        también contamos con servicio de auxilio y traslado.
+    </p>
+
+    <p>
+        <a href="auxilio.html">
+            Ver auxilio y traslado de motos
+        </a>
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Zona de atención</h2>
+
+    <p>
+        Villa Adelina, San Isidro, Martínez, Olivos,
+        Vicente López, San Fernando, Tigre, San Martín,
+        Boulogne y localidades de Zona Norte.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Consultar por un servicio</h2>
+
+    <p>
+        Comunicate por WhatsApp para consultar por el servicio
+        que necesita tu moto.
+    </p>
+
+    <div class="botones">
+
+        <a href="https://wa.me/5491136409967"
+           class="btn whatsapp"
+           target="_blank"
+           rel="noopener">
+            📲 Consultar por WhatsApp
+        </a>
+
+        <a href="tel:+5491136409967" class="btn llamar">
+            📞 Llamar
+        </a>
+
+    </div>
+
+</section>
 
 </main>
 
 <footer>
-    <p>Moto Service Villa Adelina</p>
-    <p>Servicio · Reparación · Mantenimiento · Mecánica de motos</p>
+
+    <p><strong>Moto Service Villa Adelina</strong></p>
+
+    <p>
+        Taller de Motos · Taller Mecánico · Lubricentro
+    </p>
+
+    <p>
+        Pedernera 1824 · Villa Adelina · Buenos Aires
+    </p>
+
 </footer>
 
 </body>
