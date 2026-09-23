@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Moto Service Villa Adelina | Taller de Motos lubricentro rectificados motor</title>
-    <meta name="description" content="Moto Service Villa Adelina. Taller de motos, mecánica integral, service, reparación, rectificación y auxilio de motos en Zona Norte.">
+    <title>Taller de Motos Villa Adelina | Moto Service Zona Norte</title>
+
+    <meta name="description" content="Taller de motos en Villa Adelina y Zona Norte. Service, mecánica integral, lubricentro, rectificación de motores, reparación, carburación, electricidad y auxilio de motos.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://taller-de-motos.com.ar/">
 
     <style>
         * {
@@ -20,29 +25,25 @@
             color: #222;
         }
 
-    <!-- Contenedor del Banner --> <header class="hero-banner">
-        <div class="banner-content">
-            <h1>Motoservice-Villa-Adelina</h1>
-            <p>Servicio-mecanico-moto-integral</p>
-        </div>
-    </header> 
-
-    <section>
-
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.2rem;
+            font-size: 2.3rem;
         }
 
         header p {
-            font-size: 1.1rem;
-            margin-bottom: 0;
+            font-size: 1.15rem;
+            margin: 10px 0;
         }
 
         nav {
-            background: #222;
+            background: #111;
             text-align: center;
             padding: 12px 10px;
         }
@@ -74,10 +75,15 @@
 
         h2 {
             margin-top: 0;
+            color: #222;
+        }
+
+        ul {
+            padding-left: 25px;
         }
 
         .botones {
-            margin-top: 25px;
+            margin-top: 20px;
         }
 
         .btn {
@@ -99,6 +105,19 @@
             color: white;
         }
 
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
         footer {
             background: #111;
             color: white;
@@ -106,7 +125,12 @@
             padding: 20px;
         }
 
+        footer p {
+            margin: 5px 0;
+        }
+
         @media (max-width: 600px) {
+
             header h1 {
                 font-size: 1.8rem;
             }
@@ -119,6 +143,10 @@
             section {
                 padding: 20px;
             }
+
+            .galeria {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -126,91 +154,246 @@
 <body>
 
 <header>
-    <h1>Moto Service Villa Adelina</h1>
-    <p>Taller de Motos · Taller Mecánico · Lubricentro</p>
+
+    <h1>Taller de Motos en Villa Adelina</h1>
+
+    <p>
+        Moto Service Villa Adelina · Taller Mecánico · Lubricentro
+    </p>
 
     <div class="botones">
-        <a href="https://wa.me/5491136409967" class="btn whatsapp">
+
+        <a href="https://wa.me/5491136409967"
+           class="btn whatsapp"
+           target="_blank"
+           rel="noopener">
             📲 WhatsApp
         </a>
 
-        <a href="tel:+5491136409967" class="btn llamar">
+        <a href="tel:+5491136409967"
+           class="btn llamar">
             📞 Llamar
         </a>
+
     </div>
+
 </header>
 
 <nav>
+
     <a href="index.html">Inicio</a>
+
     <a href="servicios.html">Servicios</a>
+
     <a href="rectificacion.html">Rectificación</a>
+
     <a href="auxilio.html">Auxilio y traslado</a>
+
     <a href="contacto.html">Contacto</a>
+
 </nav>
 
 <main>
 
     <section>
-        <h2>Taller de Motos en Villa Adelina</h2>
+
+        <h2>Moto Service Villa Adelina · Zona Norte</h2>
 
         <p>
-            Somos un taller dedicado al mantenimiento, reparación y servicio
-            integral de motocicletas en Villa Adelina y Zona Norte.
+            Somos un taller de motos ubicado en Villa Adelina,
+            dedicado al mantenimiento, reparación y servicio integral
+            de motocicletas.
         </p>
 
         <p>
-            Realizamos service, mecánica general, reparación de motores,
-            rectificación, electricidad, transmisión y mantenimiento preventivo.
+            Realizamos service de motos, mecánica integral, reparación
+            de motores, carburación y puesta a punto, electricidad,
+            transmisión, frenos, suspensión y mantenimiento preventivo.
         </p>
+
+        <p>
+            También contamos con servicios de lubricentro,
+            rectificación de motores y rectificación de tapas de cilindro,
+            además de auxilio y traslado de motos.
+        </p>
+
     </section>
 
+
     <section>
-        <h2>Servicios principales</h2>
+
+        <h2>Servicios de taller de motos</h2>
 
         <ul>
+
             <li>Service completo de motos</li>
-            <li>Mecánica integral</li>
+
+            <li>Mecánica integral de motocicletas</li>
+
+            <li>Lubricentro y mantenimiento</li>
+
+            <li>Carburación y puesta a punto</li>
+
             <li>Reparación de motores</li>
+
             <li>Rectificación de motores</li>
+
             <li>Rectificación de tapas de cilindro</li>
-            <li>Electricidad y encendido</li>
+
+            <li>Electricidad y sistemas de encendido</li>
+
             <li>Frenos y suspensión</li>
+
             <li>Transmisión y embrague</li>
+
             <li>Diagnóstico y reparación de fallas</li>
+
             <li>Auxilio y traslado de motos</li>
+
         </ul>
+
+        <p>
+            <a href="servicios.html">
+                Ver todos los servicios de Moto Service
+            </a>
+        </p>
+
     </section>
 
+
     <section>
+
+        <h2>Rectificación de motores y tapas de cilindro</h2>
+
+        <p>
+            Realizamos trabajos de rectificación de motores y tapas
+            de cilindro para motocicletas, con revisión y reparación
+            de los componentes que correspondan según cada caso.
+        </p>
+
+        <p>
+            <a href="rectificacion.html">
+                Ver servicio de rectificación
+            </a>
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Auxilio y traslado de motos en Zona Norte</h2>
+
+        <p>
+            Brindamos auxilio y traslado de motos ante averías,
+            inconvenientes mecánicos o cuando la motocicleta necesita
+            ser trasladada al taller para su revisión y reparación.
+        </p>
+
+        <p>
+            Atendemos consultas de Villa Adelina y distintas localidades
+            de Zona Norte.
+        </p>
+
+        <p>
+            <a href="auxilio.html">
+                Ver servicio de auxilio y traslado
+            </a>
+        </p>
+
+    </section>
+
+
+    <section>
+
         <h2>Zona de atención</h2>
 
         <p>
-            Villa Adelina, Martínez, San Isidro, Olivos, San Fernando,
-            Tigre, San Martín y localidades de Zona Norte de Buenos Aires.
+            Estamos en Villa Adelina, Buenos Aires, y atendemos consultas
+            de clientes de San Isidro, Martínez, Olivos, Vicente López,
+            San Fernando, Tigre, San Martín, Boulogne y localidades
+            de Zona Norte.
         </p>
+
+        <p>
+            <strong>Dirección:</strong> Pedernera 1824, Villa Adelina,
+            Buenos Aires.
+        </p>
+
     </section>
 
-<main>
-<img src="image/honda-cg-150-titan.webp" alt="titan">
+
     <section>
-<main>
-<img src="image/hona-cbr-1000.webp" alt="4 cilindros">
+
+        <h2>Fotos de motos y trabajos</h2>
+
+        <div class="galeria">
+
+            <img src="image/honda-cg-150-titan.webp"
+                 alt="Honda CG 150 Titan en taller de motos">
+
+            <img src="image/honda-cbr-1000.webp"
+                 alt="Honda CBR 1000 de cuatro cilindros">
+
+            <img src="image/gilera+smash-110.webp"
+                 alt="Gilera Smash 110 en taller de motos">
+
+            <img src="image/cuatriciclo-yamaha-blaster-200.webp"
+                 alt="Yamaha Blaster 200 cuatriciclo">
+
+        </div>
+
+    </section>
+
+
     <section>
-<main>
-<img src="image/gilera+smash-110.webp" alt="motomel">
-    <section>
-<main>
-<img src="image/cuatriciclo-yamaha-blaster-200.webp" alt="cuatri">
-    <section>
+
+        <h2>Contacto</h2>
+
+        <p>
+            Consultanos por service, reparación, mecánica,
+            rectificación, mantenimiento o auxilio de motos.
+        </p>
+
+        <div class="botones">
+
+            <a href="https://wa.me/5491136409967"
+               class="btn whatsapp"
+               target="_blank"
+               rel="noopener">
+                📲 Consultar por WhatsApp
+            </a>
+
+            <a href="tel:+5491136409967"
+               class="btn llamar">
+                📞 Llamar al taller
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
 
 <footer>
+
     <p>
-        Moto Service Villa Adelina
+        <strong>Moto Service Villa Adelina</strong>
     </p>
 
     <p>
-        Mantenimiento · Reparación · Mecánica · Auxilio de motos
+        Taller de Motos · Taller Mecánico · Lubricentro
     </p>
+
+    <p>
+        Service · Reparación · Rectificación · Auxilio de motos
+    </p>
+
+    <p>
+        Pedernera 1824 · Villa Adelina · Buenos Aires
+    </p>
+
 </footer>
 
 </body>
